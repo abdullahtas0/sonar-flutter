@@ -44,7 +44,8 @@ public class CyclomaticComplexityVisitor implements ParseTreeItemVisitor {
                 Dart2Parser.SwitchCaseContext.class.equals(classz) ||
                 Dart2Parser.DefaultCaseContext.class.equals(classz) ||
                 Dart2Parser.DoStatementContext.class.equals(classz) ||
-                Dart2Parser.FunctionBodyContext.class.equals(classz)
+                Dart2Parser.FunctionBodyContext.class.equals(classz) ||
+                Dart2Parser.SwitchExpressionCaseContext.class.equals(classz)
         ) {
             complexity++;
         }

@@ -43,7 +43,6 @@ public abstract class AnalyzerExecutable {
     public enum Mode {
         DETECT,
         MANUAL,
-        DARTANALYZER,
         DART,
         FLUTTER;
 
@@ -179,8 +178,6 @@ public abstract class AnalyzerExecutable {
                 return new ManualAnalyzerExecutable(sensorContext, outputMode);
             case DART:
                 return new DartAnalyzerExecutable(sensorContext, outputMode);
-            case DARTANALYZER:
-                return new DartanalyzerAnalyzerExecutable(sensorContext, outputMode);
             case FLUTTER:
                 return new FlutterAnalyzerExecutable(sensorContext, outputMode);
             default:
