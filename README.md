@@ -2,10 +2,6 @@
 
 > Static code analysis for Dart and Flutter projects in SonarQube — with Dart 3.x support, 329 rules, and state management linting.
 
-![CI](https://github.com/insideapp-oss/sonar-flutter/workflows/CI/badge.svg)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=insideapp-oss_sonar-flutter&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=insideapp-oss_sonar-flutter)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=insideapp-oss_sonar-flutter&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=insideapp-oss_sonar-flutter)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=insideapp-oss_sonar-flutter&metric=coverage)](https://sonarcloud.io/summary/new_code?id=insideapp-oss_sonar-flutter)
 
 <p align="center">
   <img src="screenshots/main.png" alt="SonarQube Flutter Plugin" width="80%"/>
